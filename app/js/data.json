@@ -1,0 +1,40 @@
+{
+  "apartments": [
+    {
+      "name": "Stylish apartment in el born",
+      "price": 85,
+      "coords": {"lat": 41.393592, "lng": 2.162570},
+      "amenities": ["Guarded", "parking", "Balcony", "Dishwasher", "Freezer"]
+    },
+    {
+      "name": "A cozy flat near Las Ramblas",
+      "price": 70,
+      "coords": {"lat": 41.394195, "lng": 2.164844},
+      "amenities": ["Free wireless internet", "Fireplace"]
+    },
+    {
+      "name": "Apartment in the classic Barcelona center",
+      "price": 60,
+      "coords": {"lat": 41.393732, "lng": 2.165551},
+      "amenities": ["Air conditioner", "Elevator", "Terrace", "Blender", "Fridge"]
+    },
+    {
+      "name": "Classic Eixample place for rent",
+      "price": 75,
+      "coords": {"lat": 41.392794, "lng": 2.164888},
+      "amenities": ["Free Transportation", "Guarded parking", "Game room"]
+    },
+    {
+      "name": "Atlantida Beach",
+      "price": 90,
+      "coords": {"lat": 41.392876, "lng": 2.163260},
+      "amenities": ["Cooking hob"]
+    },
+    {
+      "name": "Elegant place in Eixample",
+      "price": 150,
+      "coords": {"lat": 41.394479, "lng": 2.163797},
+      "amenities": ["Air conditioner", "Computerr", "Free wireless internet", "Game room", "Terrace", "Fridge"]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <title>title</title>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="page-header">
+    <div class="logo">
+      <a href="#">
+        <!-- path -->
+        <img src="img/logo.png" alt="logo">
+      </a>
+    </div>
+    <div class="page-header__btns">
+      <a class="btn-property" href="#">List your property</a>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <div class="filter">
+      <div class="filter__categories">
+        <ul class="filter__categories-list">
+          <li class="filter__categories-item">
+            <div class="filter__title filter__title--shown">
+              Amenities
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="filter__amenities">
+        <div class="filter__search">
+          <div class="filter__title">
+            Amenities search
+          </div>
+          <input class="search-input" type="text" placeholder="enter the names of amenities that you need in apartment">
+        </div>
+
+        <div class="filter__section">
+          <div class="filter__title filter__title--collapsed">
+            Popular amenities
+          </div>
+          <ul class="filter__list">
+            <li class="filter__item">
+              <input type="checkbox" id="air-condition">
+              <label for="air-condition">Air conditioner</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="computer">
+              <label for="computer">Computer</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="elevator">
+              <label for="elevator">Elevator</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="free-transport">
+              <label for="free-transport">Free transportation</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="free-wifi">
+              <label for="free-wifi">Free wireless internet</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="parking">
+              <label for="parking">Guarded parking</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="hair-dryer">
+              <label for="hair-dryer">Hair dryer</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="washing-mashine">
+              <label for="washing-mashine">Washing mashine</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="vacoom-cleaner">
+              <label for="vacoom-cleaner">Vacoom cleaner</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="tv-local">
+              <label for="tv-local">TV (local channels only)</label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="filter__section">
+          <div class="filter__title">
+            Apartment
+          </div>
+          <ul class="filter__list">
+            <li class="filter__item">
+              <input type="checkbox" id="balcony">
+              <label for="balcony">Balcony</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="fireplace">
+              <label for="fireplace">Fireplace</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="floor-heating">
+              <label for="floor-heating">Floor heating</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="game-room">
+              <label for="game-room">Game room</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="terrace">
+              <label for="terrace">Terrace</label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="filter__section">
+          <div class="filter__title filter__title--collapsed">
+            Kitchen
+          </div>
+          <ul class="filter__list">
+            <li class="filter__item">
+              <input type="checkbox" id="blender">
+              <label for="blender">Blender</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="coffee-maker">
+              <label for="coffee-maker">Coffee maker</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="cooking-hob">
+              <label for="cooking-hob">Cooking hob</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="dishwasher">
+              <label for="dishwasher">Dishwasher</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="freezer">
+              <label for="freezer">Freezer</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="fridge">
+              <label for="fridge">Fridge</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="microwave">
+              <label for="microwave">Microwave</label>
+            </li>
+            <li class="filter__item">
+              <input type="checkbox" id="toaster">
+              <label for="toaster">Toaster</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="results">
+      <div class="results__tabs">
+        <div class="results__tab results__tab--active" data-title="map">Map</div>
+        <div class="results__tab" data-title="accomodations">Accomodations</div>
+      </div>
+      <div class="results__meta">
+        <div class="results__meta-counter"><span>0</span> offers</div>
+      </div>
+      <div class="results__tabs-content">
+        <div class="results__map">
+          <!-- google map -->
+        </div>
+        <div class="results__accomodations">
+          <ul class="results__accomodation-list">
+            <li class="results__accomodation-item">
+              <a class="results__accomodation-link" href="#">
+                <img class="results__accomodation-img" src="./img/thumb-1.jpg">
+                <span class="results__accomodation-title">Stylish apartment in el born</span>
+                <span class="results__accomodation-price"><sup>&euro;</sup>85</span>
+              </a>
+            </li>
+            <li class="results__accomodation-item">
+              <a class="results__accomodation-link" href="#">
+                <img class="results__accomodation-img" src="./img/thumb-2.jpg">
+                <span class="results__accomodation-title">A cozy flat near Las Ramblas</span>
+                <span class="results__accomodation-price"><sup>&euro;</sup>70</span>
+              </a>
+            </li>
+            <li class="results__accomodation-item">
+              <a class="results__accomodation-link" href="#">
+                <img class="results__accomodation-img" src="./img/thumb-3.jpg">
+                <span class="results__accomodation-title">Apartment in the classic Barselona center</span>
+                <span class="results__accomodation-price"><sup>&euro;</sup>60</span>
+              </a>
+            </li>
+            <li class="results__accomodation-item">
+              <a class="results__accomodation-link" href="#">
+                <img class="results__accomodation-img" src="./img/thumb-4.jpg">
+                <span class="results__accomodation-title">Classic Eixample place for rent</span>
+                <span class="results__accomodation-price"><sup>&euro;</sup>75</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./js/markerclusterer.js"></script>
+  <script src="./js/map.js"></script>
+  <script src="js/main.js"></script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOhJV7X_LrEpSxpGsfuNqsdnyyqiUxvxo&callback=initMap">
+  </script>
+</body>
+</html>
